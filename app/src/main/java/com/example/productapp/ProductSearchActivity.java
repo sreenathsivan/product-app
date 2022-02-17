@@ -46,6 +46,7 @@ public class ProductSearchActivity extends AppCompatActivity {
                         pname=c.getString(2);
                         price=c.getString(3);
                     }
+
                     ed2.setText(pname);
                     ed3.setText(price);
                 }
