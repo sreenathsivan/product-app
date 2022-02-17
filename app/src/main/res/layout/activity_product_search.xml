@@ -9,7 +9,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/pcode"/>
+        android:id="@+id/pcode"
+
+        />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +24,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/pname"/>
+        android:id="@+id/pname"
+        android:editable="false"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +33,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/price"/>
+        android:id="@+id/price"
+        android:editable="true"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

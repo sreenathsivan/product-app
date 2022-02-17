@@ -49,5 +49,11 @@ public class DBHelper extends SQLiteOpenHelper {
         else
             return true;
     }
-    public
+    public Cursor searchdata(String pcode)
+    {
+        SQLiteDatabase db=this.getWritableDatabase();
+        String query="select * from "+tablename+" where "+col2+"='"+pcode+"'";
+        Cursor c=db.rawQuery(query,null);
+        return c;
+    }
 }
